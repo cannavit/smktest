@@ -10,4 +10,5 @@ smktest/scann_api.py
 smktest.egg-info/PKG-INFO
 smktest.egg-info/SOURCES.txt
 smktest.egg-info/dependency_links.txt
+smktest.egg-info/requires.txt
 smktest.egg-info/top_level.txt
