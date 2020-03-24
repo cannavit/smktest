@@ -1,0 +1,54 @@
+
+[
+  {
+    "name": "TEST: Get server status",
+    "verb": "GET",
+    "endpoint": "/get",
+    "host": "http://localhost:8085/",
+    "headers": {
+      "Accept-Language": "en-US"
+    }
+  },
+  {
+    "name": "TEST: Create an HTML bin",
+    "verb": "POST",
+    "endpoint": "/post",
+    "host": "http://localhost:8085/",
+    "payload": {
+      "content": "Hello, world!"
+    }
+  },
+  
+  {
+    "name": "TEST DELETE: /delete",
+    "verb": "DELETE",
+    "endpoint": "/delete",
+    "host": "http://localhost:8085"
+  },
+
+  {
+    "name": "TEST: List all users",
+    "verb": "GET",
+    "endpoint": "users",
+    "host": "https://github.com",
+    "headers": {
+      "Accept-Language": "en-US"
+    },
+    "query_string": {
+      "limit": 5
+    }
+  },
+
+  {
+    "name": "TEST: GET --- -- ",
+    "verb": "GET",
+    "endpoint": "/deny",
+    "host": "http://localhost:8085/",
+    "payload": {
+      "content": "Hello, world!"
+    }
+  }  
+
+]
+
+

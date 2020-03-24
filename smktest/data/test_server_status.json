@@ -1,0 +1,36 @@
+
+[
+  {
+    "name": "TEST: Get server status",
+    "verb": "GET",
+    "endpoint": "/get",
+    "host": "https://httpbin.org",
+    "headers": {
+      "Accept-Language": "en-US"
+    }
+  },
+  {
+    "name": "TEST: Create an HTML bin",
+    "verb": "POST",
+    "endpoint": "/post",
+    "host": "https://httpbin.org",
+    "payload": {
+      "content": "Hello, world!"
+    }
+  },
+  
+  {
+    "name": "TEST: Create an HTML bin",
+    "verb": "POST",
+    "endpoint": "/post",
+    "host": "https://httpbin.org",
+    "payload": {
+      "content": "Hello, world!"
+    }
+  }
+  
+    
+
+]
+
+
