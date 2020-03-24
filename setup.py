@@ -13,7 +13,7 @@ setup(
   packages = ['smktest'], # this must be the same as the name above
   version = '0.1',
   description = 'This package offers a series of tests to create the correct Smoke Test of an application before uploading changes to production.',
-  author = 'Cecilio Cannavacciuolo Díaz',
+  author = 'Cecilio Cannavacciuolo Diaz',
   author_email = 'cecilio.cannav@gmail.com',
   url = 'https://github.com/cecilio-cannav/smktest.git', # use the URL to the github repo
   download_url = 'https://github.com/cecilio-cannav/smktest.git/tarball/0.1',
