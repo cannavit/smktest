@@ -309,7 +309,7 @@ class smktest:
             CODE = 0
             passTest = True
             if TYPE_TEST == "ping":
-                DATA     = ping(URL).check()
+                DATA     = ping(str(URL)).check()
                 request  = DATA[0]
                 passTest = DATA[1]
                 logs     = DATA[2]

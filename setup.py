@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
   name = 'smktest',
   packages = ['smktest'], # this must be the same as the name above
-  version = '0.1.4',
+  version = '0.1.5',
   description = 'This package offers a series of tests to create the correct Smoke Test of an application before uploading changes to production.',
   author = 'Cecilio Cannavacciuolo Diaz',
   author_email = 'cecilio.cannav@gmail.com',
